@@ -1,0 +1,85 @@
+body {
+    height: 300px;
+    background: url(https://cdn.pixabay.com/photo/2012/02/29/15/57/spider-19263_1280.jpg);
+    /* background-image: url("https://i.gadgets360cdn.com/large/motorola_logo_image_1603976795343.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon {
+    text-align: center;
+    width: 18%;
+    align-items: flex-start;
+    margin: 0, 0, 0, 0;
+}
+.navBarr {
+    text-align: left;
+    width: 82%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: transparent;
+    cursor: pointer;
+}
+
+li {
+    float: right;
+    font-size: 45px;
+    color: rgb(221, 107, 212);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+li a {
+    display: block;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(109, 79, 104);
+}
+
+.active {
+    background-color: #ff9190;
+}
+.titl {
+    margin-top: 0px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+    color: rgb(19, 171, 231);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(82, 82, 83), 0 0 5px darkblue;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.Moto {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.Moto > img {
+    width: 300px;
+    height: 250px;
+}
+.des {
+    color: rgb(9, 1, 51);
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(17, 16, 16), 0 0 1em rgb(13, 13, 14),
+        0 0 0.2em rgb(0, 118, 139);
+    padding: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

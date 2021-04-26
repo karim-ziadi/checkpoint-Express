@@ -1,0 +1,75 @@
+body {
+    background: url(https://www.ktm.com/content/dam/websites/ktm-com/language-masters/en/startpage/motogp21-header.component.crop-7x4-6.ts=1613130910704.jpg/content/websites/ktm-com/africa/mg/fr/racing/road-racing/jcr:content/root/responsivegrid_1_col/video);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon {
+    text-align: center;
+    width: 18%;
+    align-items: flex-start;
+    margin: 0, 0, 0, 0;
+}
+.navBarr {
+    text-align: left;
+    width: 82%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: transparent;
+    cursor: pointer;
+}
+
+li {
+    float: right;
+    font-size: 45px;
+    color: rgb(221, 107, 212);
+    text-shadow: 1px 1px 2px rgb(163, 26, 26), 0 0 25px blue, 0 0 5px darkblue;
+}
+
+li a {
+    display: block;
+    color: rgb(19, 171, 231);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: groove;
+    border-radius: 10px;
+    border-color: rgb(56, 106, 129);
+    padding: 10px;
+    margin: 10px;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(109, 79, 104);
+}
+
+.active {
+    background-color: #ff9190;
+}
+.titl {
+    margin-top: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+    color: rgb(19, 171, 231);
+    text-shadow: 1px 1px 2px rgb(163, 26, 26), 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.Btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 50%;
+    background-color: coral;
+}

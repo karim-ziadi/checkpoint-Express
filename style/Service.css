@@ -1,0 +1,103 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/15939.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon {
+    text-align: center;
+    width: 18%;
+    align-items: flex-start;
+    margin: 0, 0, 0, 0;
+}
+.navBarr {
+    text-align: left;
+    width: 82%;
+}
+
+.ulNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: transparent;
+    cursor: pointer;
+}
+
+.liNav {
+    float: right;
+    font-size: 45px;
+    color: rgb(221, 107, 212);
+    text-shadow: 1px 1px 2px rgb(163, 26, 26), 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.liNav a {
+    display: block;
+    color: rgb(19, 171, 231);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: groove;
+    border-radius: 10px;
+    border-color: rgb(56, 106, 129);
+    padding: 10px;
+    margin: 10px;
+}
+
+.liNav a:hover:not(.active) {
+    background-color: rgb(109, 79, 104);
+}
+
+.active {
+    background-color: #ff9190;
+}
+.titl {
+    margin-top: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+    color: rgb(19, 171, 231);
+    text-shadow: 1px 1px 2px rgb(163, 26, 26), 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.itemul {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.itemul > li {
+    margin: 10px;
+    padding: 20px;
+    border: ridge;
+    border-color: rgb(236, 161, 22);
+    border-radius: 20px;
+    background-color: rgb(236, 161, 22);
+    text-align: center;
+}
+li > a {
+    color: rgb(17, 16, 16);
+    font-size: x-large;
+    text-decoration: none !important;
+    background-color: transparent;
+    font-style: italic;
+    font-family: cursive;
+}
+.Des {
+    display: inline-block;
+    width: 40%;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    color: rgb(194, 111, 17);
+    border: dotted;
+    border-color: rgb(233, 145, 29);
+}
